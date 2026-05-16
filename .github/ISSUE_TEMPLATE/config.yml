@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: "❓ Help — how do I do X?"
+    url: https://github.com/edankert/yourtrainer-community/discussions/categories/help
+    about: "For 'how do I' questions, please use the Help Q&A in Discussions. Maintainer is more responsive there and the answer helps future readers."
+  - name: "💡 Feature idea — discuss before filing"
+    url: https://github.com/edankert/yourtrainer-community/discussions/categories/ideas
+    about: "Feature ideas start as open-ended discussions, get refined, and graduate to Issues once the developer commits to building them. Please start in Ideas."
+  - name: "💬 Real-time chat"
+    url: https://your-applications.com/your-trainer/discord
+    about: "Discord for real-time chat with riders + the developer."

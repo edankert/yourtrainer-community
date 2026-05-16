@@ -1,0 +1,76 @@
+name: 🐛 Bug report
+description: Reproducible defect in Your Trainer.
+title: "[Bug] "
+labels: ["bug", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to file a bug. The fields below are what the developer needs to reproduce the issue without back-and-forth.
+
+        Before filing, search existing Issues + Discussions for your symptom — it may already be tracked.
+  - type: input
+    id: app-version
+    attributes:
+      label: App version
+      description: Settings → About → version line.
+      placeholder: "2.0.2 (154)"
+    validations:
+      required: true
+  - type: input
+    id: android-version
+    attributes:
+      label: Android version
+      description: System Settings → About phone / tablet → Android version.
+      placeholder: "Android 13 (One UI 5.1)"
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Tablet / phone model
+      placeholder: "Samsung Galaxy Tab S9 (SM-X910)"
+    validations:
+      required: true
+  - type: input
+    id: trainer
+    attributes:
+      label: Smart trainer model + firmware
+      placeholder: "Wahoo KICKR V5, firmware 4.2.1"
+    validations:
+      required: false
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: Step-by-step description of what you did and what went wrong.
+      placeholder: |
+        1. Opened Equipment Hub
+        2. Tapped the trainer to connect
+        3. Got stuck on "Connecting…" for over a minute
+        4. App eventually showed "Connection failed"
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+      placeholder: Trainer should connect within ~10 seconds.
+    validations:
+      required: true
+  - type: textarea
+    id: diagnostics
+    attributes:
+      label: Diagnostic export
+      description: |
+        From inside the app: Settings → Hardware → Share Diagnostics. Paste the output here. Anonymous — contains trainer model, app version, FTMS feature flags, recent ride summary; no rider PII.
+      render: text
+    validations:
+      required: false
+  - type: textarea
+    id: anything-else
+    attributes:
+      label: Anything else?
+      description: Workarounds you tried, related bugs, screenshots (anonymised).
+    validations:
+      required: false

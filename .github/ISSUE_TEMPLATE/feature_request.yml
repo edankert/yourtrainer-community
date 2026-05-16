@@ -1,0 +1,40 @@
+name: 💡 Feature request (only for approved ideas)
+description: "ONLY for features the developer has agreed to build — start in Discussions → Ideas first."
+title: "[Feature] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Stop.** Are you suggesting a brand-new idea? Please open a Discussion in [💡 Ideas](https://github.com/edankert/yourtrainer-community/discussions/categories/ideas) first. Ideas need to be refined + agreed before they become Issues.
+
+        Only use this template if the developer has already said "yes, please file this as an Issue" in a Discussion.
+  - type: input
+    id: discussion-link
+    attributes:
+      label: Linked Discussion
+      description: URL of the Discussion this graduated from.
+      placeholder: "https://github.com/edankert/yourtrainer-community/discussions/42"
+    validations:
+      required: true
+  - type: textarea
+    id: summary
+    attributes:
+      label: One-paragraph summary
+      description: What is the feature, who is it for, what does it replace / improve?
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope
+      description: What's IN this feature. What's deliberately OUT.
+    validations:
+      required: true
+  - type: input
+    id: milestone
+    attributes:
+      label: Target milestone
+      placeholder: "v2.1.0 or v3.0"
+    validations:
+      required: false
