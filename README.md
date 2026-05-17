@@ -1,6 +1,6 @@
 # Your Trainer — community
 
-**Indoor-cycling app for Android 10+ tablets.** Records personal bests per rider, supports multiple riders per install, works on a one-time purchase. Developed in Ireland.
+**Indoor-cycling Android app.** Records personal bests per rider, supports multiple riders per install, works on a one-time purchase. Developed in Ireland.
 
 📱 [Get it on Google Play](https://play.google.com/store/apps/details?id=com.yourtrainer) · 🌐 [your-applications.com/your-trainer](https://your-applications.com/your-trainer/)
 
